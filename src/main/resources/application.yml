@@ -1,8 +1,10 @@
+server:
+  port: 8082
 spring:
   security:
     oauth2:
       client:
         registration:
           github:
-            client-id: <clientID>
-            client-secret: <clientSecret>
+            client-id: ## client id of created github project
+            client-secret: ## client secret of created github project
